@@ -22,6 +22,9 @@
     font-weight: 800;
     margin-bottom: 24px;
 }
+.section-width{
+    width: 1440px;
+}
 
 .section-description {
     color: rgba(39, 39, 39, 0.60);
@@ -86,7 +89,6 @@ main {
 /* Our Featured Flowers sectio  */
 .card-section {
     display: flex;
-    width: 1440px;
     gap: 24px;
     margin-top: 48px;
 
@@ -127,4 +129,30 @@ main {
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
+}
+
+
+/* service-section */
+.service-container{
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+height: 320px;
+margin: 128px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+text-align: center;
+}
+.delevery-description{
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.delevery-img{
+    width: 88px;
+height: 88px;
+
 }
