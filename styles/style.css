@@ -22,7 +22,8 @@
     font-weight: 800;
     margin-bottom: 24px;
 }
-.section-width{
+
+.section-width {
     width: 1440px;
 }
 
@@ -133,26 +134,68 @@ main {
 
 
 /* service-section */
-.service-container{
-border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-height: 320px;
-margin: 128px 0;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 100px;
-text-align: center;
+.service-container {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    height: 320px;
+    margin: 128px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
 }
-.delevery-description{
+
+.delevery-description {
     color: rgba(39, 39, 39, 0.80);
     font-family: Lato;
     font-size: 24px;
     font-weight: 600;
     line-height: 35px;
 }
-.delevery-img{
+
+.delevery-img {
     width: 88px;
-height: 88px;
+    height: 88px;
+
+}
+
+/* short banner service section   */
+
+.short-banner-section {
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 100px 0;
+}
+.short-banner-section-left{
+    width: 594px;
+    text-align: center;
+}
+
+.short-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+   margin-bottom: 24px;
+   
+}
+
+.short-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 34px;
+}
+.short-banner-section-right{
+    background-image: url(../image/pngwing8.png);
+    background-repeat: no-repeat;
+    width: 318px;
+height: 420px;
+margin-left: 186px;
 
 }
