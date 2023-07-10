@@ -167,10 +167,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     padding: 100px 0;
 }
-.short-banner-section-left{
+
+.short-banner-section-left {
     width: 594px;
     text-align: center;
 }
@@ -179,8 +180,8 @@ main {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-   margin-bottom: 24px;
-   
+    margin-bottom: 24px;
+
 }
 
 .short-description {
@@ -191,11 +192,24 @@ main {
     line-height: 30px;
     margin-bottom: 34px;
 }
-.short-banner-section-right{
+
+.short-banner-section-right {
     background-image: url(../image/pngwing8.png);
     background-repeat: no-repeat;
     width: 318px;
-height: 420px;
-margin-left: 186px;
+    height: 420px;
+    margin-left: 186px;
 
+}
+
+/* image gallery section  */
+
+.img-container img {
+    width: 330px;
+    height: 396px;
+    margin-left: 21px;
+
+}
+.img-container{
+    margin-top: 34px;
 }
