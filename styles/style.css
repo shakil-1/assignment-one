@@ -1,5 +1,83 @@
-*{
-    margin: o;
-    padding: o;
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+.btn-primary {
+    width: 177px;
+    border-radius: 8px;
+    background-color: #E55473;
+    height: 64px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+}
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    margin: 0 auto;
+}
+
+/* start a banner section  */
+
+.banner {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner-header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-section-left {
+    width: 708px;
+}
+
+.banner-section-right {
+    background-image: url(../image/pngwing10.png);
+    background-repeat: no-repeat;
+    width: 635px;
+    height: 800px;
+
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0;
+}
+
+.banner-img {
+    width: 635px;
+}
+/* main */
+main{
+    background-color: #FFF;
+    padding: 50px;
+}
+
+/* Our Featured Flowers sectio  */
